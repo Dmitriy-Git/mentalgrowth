@@ -1,0 +1,43 @@
+.title {
+    /*position: absolute;*/
+    /*width: 114px;*/
+    /*height: 29px;*/
+    /*left: 433px;*/
+    /*top: 42px;*/
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #161616;
+}
+
+.subtitle {
+    /*position: absolute;*/
+    /*width: 259px;*/
+    /*height: 25px;*/
+    /*left: 433px;*/
+    /*top: 79px;*/
+
+    /* 18 Text Regular */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #161616;
+    opacity: 0.5;
+    /* or 25px */
+
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding-left: 30px;
+    /*border: 1px solid red;*/
+}

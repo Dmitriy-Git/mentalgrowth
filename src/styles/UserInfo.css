@@ -1,0 +1,70 @@
+
+.user_info_container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.user_info_img {
+    width: 70%;
+    display: flex;
+    align-self: center;
+}
+
+.user_info_title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Local/Black */
+
+    color: #161616;
+    margin-top: 10px;
+}
+
+.user_info_step_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Local/Black */
+    color: #161616;
+}
+
+.user_info_step_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.user_info_step_order {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 17px */
+
+    /* Local/Black */
+    color: #161616;
+}
+
+@media screen and (max-width: 700px) {
+
+    .user_info_container {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        max-height: 400px;
+    }
+
+    .user_info_img {
+        width: 100%;
+    }
+}

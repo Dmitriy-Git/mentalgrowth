@@ -1,0 +1,18 @@
+.user_list_container {
+    /* exercise cell */
+
+
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 80%;
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 0;*/
+    /*flex-grow: 0;*/
+    /*margin: 16px 0px;*/
+}

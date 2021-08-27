@@ -1,0 +1,36 @@
+.user_container {
+    /* exercise cell */
+
+
+    /* Auto Layout */
+    display: flex;
+    align-items: center;
+    /*flex-direction: row;*/
+    margin-top: 15px;
+    /*!* Inside Auto Layout *!*/
+
+    /*border: 1px solid green;*/
+}
+
+.image {
+    width: 88px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.user_description {
+    /* 18 Text Bold */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    padding-left: 15px;
+    /* or 25px */
+
+
+    /* Local/Black */
+
+    color: #161616;
+}
